@@ -8,7 +8,7 @@ import matplotlib.patches as patches
 # -------------------------
 # Load the image 
 # -------------------------
-img_path = "assets/busy-street-with-people-and-traffic-in-accra-ghana-DXYYKT.jpg"
+img_path = "path_to_your_image"
 img = Image.open(img_path).convert("RGB")
 img_tensor = to_tensor(img)  # [C,H,W] in [0,1]
 
